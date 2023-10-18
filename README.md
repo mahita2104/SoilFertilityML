@@ -19,6 +19,10 @@ A necessary step  to ensure that all the variables will be transformed to the sa
  - Renamed columns and attributes for clarity.
  - Assured length of column and attribute unit is same
  - Created a new dataframe with the following changes
+ - Outlier Detection Using Boxplots:
+   - Utilized boxplots to identify outliers in numerical columns.
+   - Visualized data distribution, interquartile range, and outliers.
+   - Considered different approaches for handling outliers as needed
 ## Exploratory Data Analysis
  - Data Visualization using pairplots
   ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Visualization_plots/pairplot.png)
@@ -27,7 +31,9 @@ A necessary step  to ensure that all the variables will be transformed to the sa
    ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Visualization_plots/heatmap.png)
 
 ## Regression Techniques
- Implementing different ml models to access which model is best fit for this dataset
+- Normalised the dataframe using MinMaxScaler to ensure that all features are on a similar scale.
+- Split the dataset into test and train dataset 
+- Implementing different ml models to access which model is best fit for this dataset
 
  - ### Linear Regression
    ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Ml_Models_Plots/Linear_regression.png)
@@ -52,5 +58,5 @@ A necessary step  to ensure that all the variables will be transformed to the sa
 
   - KNN regressor and Gradient Boosting outperformed all the models with MSE less than 0.0004%
   - Linear Regression had the highest MSE
-  - As dataset is not large and diverse we could see such low mse's 
+  - Due to small dataset we could attain such high precision but this causes lack of generalisation
 
