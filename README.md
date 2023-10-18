@@ -24,7 +24,7 @@ A necessary step  to ensure that all the variables will be transformed to the sa
   ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Visualization_plots/pairplot.png)
  - Data Visualization using Heatmap
     - To find relationship between different attributes
-  ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Visualization_plots/heatmap.png)
+   ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Visualization_plots/heatmap.png)
 
 ## Regression Techniques
  Implementing different ml models to access which model is best fit for this dataset
