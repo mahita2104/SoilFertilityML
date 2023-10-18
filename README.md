@@ -21,7 +21,36 @@ A necessary step  to ensure that all the variables will be transformed to the sa
  - Created a new dataframe with the following changes
 ## Exploratory Data Analysis
  - Data Visualization using pairplots
-   
+  ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Visualization_plots/pairplot.png)
+ - Data Visualization using Heatmap
+    - To find relationship between different attributes
+  ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Visualization_plots/heatmap.png)
 
 ## Regression Techniques
+ Implementing different ml models to access which model is best fit for this dataset
+
+ - ### Linear Regression
+   ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Ml_Models_Plots/Linear_regression.png)
+ - ### Decision Tree Regressor
+   ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Ml_Models_Plots/Decision_Tree.png)
+ - ### KNN regressor
+   ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Ml_Models_Plots/KNN%20(1).png)
+ - ### Bagging Regressor
+   ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Ml_Models_Plots/Bagging_Regressor.png)
+ - ### Random Forest Regressor
+   ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Ml_Models_Plots/Random_forest.png)
+ - ### Gradient Boosting
+   ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Ml_Models_Plots/Gradient_Boosting.png)
+ - ### Comparing Actual vs Predicted of all above models
+   ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Comparison_Plots/ActualvsPredicted.png)
+   
 ## Conclusion
+- Comparing MSE(Mean-Sqaured Error) of all models
+  ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Comparison_Plots/MSE(BEFORETUNING).png)
+- Comparing MSE(Mean-Sqaured Error) after fine-tuning all the models
+  ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Comparison_Plots/MSE(AFTERTUNING).png)
+
+  - KNN regressor and Gradient Boosting outperformed all the models with MSE less than 0.0004%
+  - Linear Regression had the highest MSE
+  - As dataset is not large and diverse we could see such low mse's 
+
