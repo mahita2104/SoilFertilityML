@@ -29,11 +29,12 @@ A necessary step  to ensure that all the variables will be transformed to the sa
  - Data Visualization using Heatmap
     - To find relationship between different attributes
    ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Visualization_plots/heatmap.png)
+    - Vegetation Cover highly depends on pH
 
 ## Regression Techniques
-- Normalised the dataframe using MinMaxScaler to ensure that all features are on a similar scale.
-- Split the dataset into test and train dataset 
-- Implementing different ml models to access which model is best fit for this dataset
+ - Normalised the dataframe using MinMaxScaler to ensure that all features are on a similar scale.
+ - Split the dataset into test and train dataset 
+ - Implementing different ml models to access which model is best fit for this dataset
 
  - ### Linear Regression
    ![](https://github.com/mahita2104/SoilFertilityML/blob/main/Ml_Models_Plots/Linear_regression.png)
