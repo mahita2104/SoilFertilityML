@@ -12,7 +12,7 @@ This project is guided by the following research objectives:
 ## Dataset Description
 This dataset contains the various elements found in the soil, for instance, organic matter, various nitrogen compounds, potassium, sodium, sulphates, boron, etc, It also contains various soil properties like pH. The target of this data is set to predict the vegetation cover which is the percent vegetative cover. The higher the vegetation cover higher is the fertility of the soil for crops. Vegatation cover is calcuated in percentage from 1 to 100, so, it becomes the regresion task. To achive the results various regression methods are applied and performance of each model is analysed.
 ## Data Preprocessing and Cleaning
-A necessary step  to ensure that all the variables will be transformed to the same scale , all continuous variables contribute equally causing that no biased results.
+A necessary step  to ensure that all the variables will be transformed to the same scale , all continuous variables contribute equally causing no biased results.
  - Imported Excel data into a Pandas DataFrame.
  - Handled missing values through imputation or removal.
  - Removed unnecessary rows and columns.
